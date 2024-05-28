@@ -1,0 +1,3 @@
+var randomNum = Math.floor(Math.random() * 1000)
+var email= "Avengers"+randomNum+"@gmail.com"
+pm.globals.set("newEmailId",email)
